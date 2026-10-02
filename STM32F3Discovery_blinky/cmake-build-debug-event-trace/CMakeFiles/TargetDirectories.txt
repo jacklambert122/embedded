@@ -1,0 +1,3 @@
+/home/jack/embedded/STM32F3Discovery_blinky/cmake-build-debug-event-trace/CMakeFiles/STM32F3Discovery_blinky.elf.dir
+/home/jack/embedded/STM32F3Discovery_blinky/cmake-build-debug-event-trace/CMakeFiles/edit_cache.dir
+/home/jack/embedded/STM32F3Discovery_blinky/cmake-build-debug-event-trace/CMakeFiles/rebuild_cache.dir

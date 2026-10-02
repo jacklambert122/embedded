@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-arm-none-eabi" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="arm-none-eabi">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="C" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc" />
+            <env name="CC" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++" />
+            <env name="ASM" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc" />
+            <env name="AR" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ar" />
+            <env name="OBJCOPY" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy" />
+            <env name="OBJDUMP" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump" />
+            <env name="SIZE" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-size" />
+            <env name="PATH" value="/usr/local/bin:/usr/sbin:/usr/bin:/bin:/snap/bin:/home/jack/.local/share/JetBrains/Toolbox/scripts:/home/jack/gcc-arm-none-eabi-10.3-2021.10/bin" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+</project>

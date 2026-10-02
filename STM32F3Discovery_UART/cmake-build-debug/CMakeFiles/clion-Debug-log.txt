@@ -1,0 +1,41 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/jack/embedded/STM32F3Discovery_UART -B /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug
+-- The C compiler identification is unknown
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++
+CMake Error at /usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "/home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM
+    
+    Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0895d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0895d.dir/build.make CMakeFiles/cmTC_0895d.dir/build
+    gmake[1]: Entering directory '/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM'
+    Building C object CMakeFiles/cmTC_0895d.dir/testCCompiler.c.obj
+    /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++    -o CMakeFiles/cmTC_0895d.dir/testCCompiler.c.obj -c /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM/testCCompiler.c
+    /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM/testCCompiler.c:2:3: error: #error "The CMAKE_C_COMPILER is set to a C++ compiler"
+        2 | # error "The CMAKE_C_COMPILER is set to a C++ compiler"
+          |   ^~~~~
+    gmake[1]: *** [CMakeFiles/cmTC_0895d.dir/build.make:78: CMakeFiles/cmTC_0895d.dir/testCCompiler.c.obj] Error 1
+    gmake[1]: Leaving directory '/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM'
+    gmake: *** [Makefile:127: cmTC_0895d/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:17 (project)
+
+
+-- Check for working C compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ - broken
+-- Configuring incomplete, errors occurred!

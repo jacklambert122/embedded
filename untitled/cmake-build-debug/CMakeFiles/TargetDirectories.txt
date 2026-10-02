@@ -1,0 +1,3 @@
+/home/jack/embedded/untitled/cmake-build-debug/CMakeFiles/untitled.elf.dir
+/home/jack/embedded/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jack/embedded/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

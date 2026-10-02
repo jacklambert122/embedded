@@ -1,0 +1,470 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The target system is: Generic - 1 - 
+      The host system is: Linux - 6.5.0-14-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:434:29: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        434 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:796:29: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        796 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:797:25: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        797 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:819:3: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        819 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:821:48: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        821 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        822 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        823 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        824 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        825 |   "ON"
+            |   ~~~~                                          
+        826 | #else
+            | ~~~~~                                           
+        827 |   "OFF"
+            |   ~~~~~                                         
+        828 | #endif
+            | ~~~~~~                                          
+        829 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:837:5: error: cannot declare '::main' to be a global variable
+        837 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:837:10: error: 'argc' was not declared in this scope
+        837 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:837:16: error: 'argv' was not declared in this scope
+        837 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:837:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        837 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:837:38: error: storage size of 'argv' isn't known
+        837 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:841:1: error: expected unqualified-id before '{' token
+        841 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      arm-none-eabi-g++: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      1
+      <command-line>: error: missing '(' after predicate
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      CMakeCCompilerId.c:434:29: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        434 | char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:796:29: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        796 | char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+            |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:797:25: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        797 | char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+            |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:819:3: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        819 |   "INFO" ":" "standard_default[" C_VERSION "]";
+            |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      CMakeCCompilerId.c:821:48: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+        821 | const char* info_language_extensions_default = "INFO" ":" "extensions_default["
+            |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        822 | #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \\
+            | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        823 |      defined(__TI_COMPILER_VERSION__)) &&                                     \\
+            |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        824 |   !defined(__STRICT_ANSI__)
+            |   ~~~~~~~~~~~~~~~~~~~~~~~~~                     
+        825 |   "ON"
+            |   ~~~~                                          
+        826 | #else
+            | ~~~~~                                           
+        827 |   "OFF"
+            |   ~~~~~                                         
+        828 | #endif
+            | ~~~~~~                                          
+        829 | "]";
+            | ~~~                                             
+      CMakeCCompilerId.c:837:5: error: cannot declare '::main' to be a global variable
+        837 | int main(argc, argv) int argc; char *argv[];
+            |     ^~~~
+      CMakeCCompilerId.c:837:10: error: 'argc' was not declared in this scope
+        837 | int main(argc, argv) int argc; char *argv[];
+            |          ^~~~
+      CMakeCCompilerId.c:837:16: error: 'argv' was not declared in this scope
+        837 | int main(argc, argv) int argc; char *argv[];
+            |                ^~~~
+      CMakeCCompilerId.c:837:20: error: expression list treated as compound expression in initializer [-fpermissive]
+        837 | int main(argc, argv) int argc; char *argv[];
+            |                    ^
+      CMakeCCompilerId.c:837:38: error: storage size of 'argv' isn't known
+        837 | int main(argc, argv) int argc; char *argv[];
+            |                                      ^~~~
+      CMakeCCompilerId.c:841:1: error: expected unqualified-id before '{' token
+        841 | {
+            | ^
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      arm-none-eabi-g++: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      CMakeCCompilerId.c:2:3: error: #error "A C++ compiler has been selected for C."
+          2 | # error "A C++ compiler has been selected for C."
+            |   ^~~~~
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      arm-none-eabi-g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1115 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+      arm-none-eabi-g++: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/local/gcc-trunk/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
+      Copyright (C) 2020 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9VdzVL"
+      binary: "/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9VdzVL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9VdzVL
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5546/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5546.dir/build.make CMakeFiles/cmTC_d5546.dir/build
+        gmake[1]: Entering directory '/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9VdzVL'
+        Building C object CMakeFiles/cmTC_d5546.dir/CMakeCCompilerABI.c.obj
+        /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++    -o CMakeFiles/cmTC_d5546.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c:2:4: error: #error "A C++ compiler has been selected for C."
+            2 | #  error "A C++ compiler has been selected for C."
+              |    ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_d5546.dir/build.make:78: CMakeFiles/cmTC_d5546.dir/CMakeCCompilerABI.c.obj] Error 1
+        gmake[1]: Leaving directory '/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9VdzVL'
+        gmake: *** [Makefile:127: cmTC_d5546/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:17 (project)"
+    checks:
+      - "Check for working C compiler: /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++"
+    directories:
+      source: "/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM"
+      binary: "/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0895d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0895d.dir/build.make CMakeFiles/cmTC_0895d.dir/build
+        gmake[1]: Entering directory '/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM'
+        Building C object CMakeFiles/cmTC_0895d.dir/testCCompiler.c.obj
+        /home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++    -o CMakeFiles/cmTC_0895d.dir/testCCompiler.c.obj -c /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM/testCCompiler.c
+        /home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM/testCCompiler.c:2:3: error: #error "The CMAKE_C_COMPILER is set to a C++ compiler"
+            2 | # error "The CMAKE_C_COMPILER is set to a C++ compiler"
+              |   ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_0895d.dir/build.make:78: CMakeFiles/cmTC_0895d.dir/testCCompiler.c.obj] Error 1
+        gmake[1]: Leaving directory '/home/jack/embedded/STM32F3Discovery_UART/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CsfiAM'
+        gmake: *** [Makefile:127: cmTC_0895d/fast] Error 2
+        
+      exitCode: 2
+...

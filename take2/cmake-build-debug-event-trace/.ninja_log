@@ -1,0 +1,25 @@
+# ninja log v5
+2	128	1705190873057136544	CMakeFiles/take2.elf.dir/Core/Src/system_stm32f4xx.c.obj	359ca03c40b019ed
+15	195	1705190873125133149	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj	bcff093f2d5871c7
+66	138	1705190873069135945	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj	4147e74af805167f
+63	215	1705190873145132151	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj	50b45053acb7a13f
+1	73	1705190872997139540	CMakeFiles/take2.elf.dir/Core/Src/syscalls.c.obj	b4d0ba6f546924b3
+73	157	1705190873085135146	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj	79bce64e36594b79
+1	66	1705190872989139940	CMakeFiles/take2.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj	8bc4708d562be7eb
+5	189	1705190873117133548	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj	e6bdef2bd512f004
+4	116	1705190873045137142	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj	cc756245f327bd66
+1	25	1706075207196610252	build.ninja	3afdb4e2ef5362a5
+2	15	1705190872941142341	CMakeFiles/take2.elf.dir/Core/Startup/startup_stm32f407vgtx.s.obj	39969416a80b70e6
+2	63	1705190872989139940	CMakeFiles/take2.elf.dir/Core/Src/sysmem.c.obj	eb2beed2c3eb979c
+14	118	1705190873045137142	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj	3fae2e1b1d042507
+3	120	1705190873049136944	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj	2435068d69b62b77
+2	160	1705190873089134947	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj	c1239c237b3db9fe
+13	88	1705190873017138541	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj	64114f2c7f37510b
+3	195	1705190873125133149	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj	d68fa58b24d845e2
+215	240	1705190873165131152	take2.elf	99e6012ff894d96
+13	118	1705190873045137142	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj	7d39971a598c4106
+1	136	1705190873065136145	CMakeFiles/take2.elf.dir/Core/Src/main.c.obj	8b26eacd5f7025c6
+1	90	1705190873017138541	CMakeFiles/take2.elf.dir/Core/Src/stm32f4xx_it.c.obj	2f0e951073434d89
+3	155	1705190873085135146	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj	496119a9bacc6076
+4	116	1705190873045137142	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj	30cb7da41a6b295b
+14	124	1705190873053136744	CMakeFiles/take2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj	7782fb78dacc78a2

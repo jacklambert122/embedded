@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/261/bin/ninja/linux/x64/ninja -DCMAKE_C_COMPILER=/home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/home/jack/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++ --profiling-format=google-trace --profiling-output=CMakeFiles/clion-event-trace.json -G Ninja -S /home/jack/embedded/take2 -B /home/jack/embedded/take2/cmake-build-debug-event-trace
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jack/embedded/take2/cmake-build-debug-event-trace

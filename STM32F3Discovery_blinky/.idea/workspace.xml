@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="STM32F3Discovery_blinky" targetName="STM32F3Discovery_blinky.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="AR" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ar" />
+            <env name="ASM" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc" />
+            <env name="C" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc" />
+            <env name="CC" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++" />
+            <env name="OBJCOPY" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy" />
+            <env name="OBJDUMP" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump" />
+            <env name="SIZE" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-size" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+      <configuration PROFILE_NAME="Debug-event-trace" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="--profiling-format=google-trace --profiling-output=CMakeFiles/clion-event-trace.json">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="AR" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ar" />
+            <env name="ASM" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc" />
+            <env name="C" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc" />
+            <env name="CC" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++" />
+            <env name="OBJCOPY" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objcopy" />
+            <env name="OBJDUMP" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-objdump" />
+            <env name="SIZE" value="$USER_HOME$/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-size" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="326086db-fb02-4443-b1b0-32f4168ea162" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1486" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="Name" />
+        <option value="Value" />
+        <option value="Description" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2bR7X5lXmS2C0fsUTiW0bXGJ4nK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OpenOCD Download &amp; Run.OCD STM32F3Discovery_blinky.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD STM32F3Discovery_blinky">
+    <configuration name="STM32F3Discovery_blinky.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F3Discovery_blinky" TARGET_NAME="STM32F3Discovery_blinky.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32F3Discovery_blinky" RUN_TARGET_NAME="STM32F3Discovery_blinky.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD STM32F3Discovery_blinky" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F3Discovery_blinky" TARGET_NAME="STM32F3Discovery_blinky.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="STM32F3Discovery_blinky" RUN_TARGET_NAME="STM32F3Discovery_blinky.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/stm32f3discovery.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.STM32F3Discovery_blinky.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD STM32F3Discovery_blinky" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="326086db-fb02-4443-b1b0-32f4168ea162" name="Changes" comment="" />
+      <created>1706166073572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706166073572</updated>
+      <workItem from="1706166090177" duration="8229000" />
+      <workItem from="1706768512832" duration="1307000" />
+      <workItem from="1706771260050" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>120</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
